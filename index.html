@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Game of Life</title>
+<link rel="stylesheet" href="style.css">
+<script src='https://code.jquery.com/jquery-2.1.4.js'></script>
+<script src='game.js'></script>
+<script src='view.js'></script>
+<script src='controller.js'></script>
+<script>
+function hi() {console.log('hi')}
+ var interval = setInterval(hi, 1000)
+  setTimeout(function() {
+    clearInterval(interval)
+  }, 5009)
+</script>
+</head>
+
+<body>
+  <table id='game'>
+  	<tr class='r0'>
+      <td class='c0'></td>
+      <td class='c1'></td>
+      <td class='c2'></td>
+      <td class='c3'></td>
+      <td class='c4'></td>
+      <td class='c5'></td>
+      <td class='c6'></td>
+      <td class='c7'></td>
+      <td class='c8'></td>
+      <td class='c9'></td>
+    </tr>
+    <tr class='r1'>
+      <td class='c0'></td>
+      <td class='c1'></td>
+      <td class='c2'></td>
+      <td class='c3'></td>
+      <td class='c4'></td>
+      <td class='c5'></td>
+      <td class='c6'></td>
+      <td class='c7'></td>
+      <td class='c8'></td>
+      <td class='c9'></td>
+    </tr>
+    <tr class='r2'>
+      <td class='c0'></td>
+      <td class='c1'></td>
+      <td class='c2'></td>
+      <td class='c3'></td>
+      <td class='c4'></td>
+      <td class='c5'></td>
+      <td class='c6'></td>
+      <td class='c7'></td>
+      <td class='c8'></td>
+      <td class='c9'></td>
+    </tr>
+    <tr class='r3'>
+      <td class='c0'></td>
+      <td class='c1'></td>
+      <td class='c2'></td>
+      <td class='c3'></td>
+      <td class='c4'></td>
+      <td class='c5'></td>
+      <td class='c6'></td>
+      <td class='c7'></td>
+      <td class='c8'></td>
+      <td class='c9'></td>
+    </tr>
+    <tr class='r4'>
+      <td class='c0'></td>
+      <td class='c1'></td>
+      <td class='c2'></td>
+      <td class='c3'></td>
+      <td class='c4'></td>
+      <td class='c5'></td>
+      <td class='c6'></td>
+      <td class='c7'></td>
+      <td class='c8'></td>
+      <td class='c9'></td>
+    </tr>
+    <tr class='r5'>
+      <td class='c0'></td>
+      <td class='c1'></td>
+      <td class='c2'></td>
+      <td class='c3'></td>
+      <td class='c4'></td>
+      <td class='c5'></td>
+      <td class='c6'></td>
+      <td class='c7'></td>
+      <td class='c8'></td>
+      <td class='c9'></td>
+    </tr>
+    <tr class='r6'>
+      <td class='c0'></td>
+      <td class='c1'></td>
+      <td class='c2'></td>
+      <td class='c3'></td>
+      <td class='c4'></td>
+      <td class='c5'></td>
+      <td class='c6'></td>
+      <td class='c7'></td>
+      <td class='c8'></td>
+      <td class='c9'></td>
+    </tr>
+    <tr class='r7'>
+      <td class='c0'></td>
+      <td class='c1'></td>
+      <td class='c2'></td>
+      <td class='c3'></td>
+      <td class='c4'></td>
+      <td class='c5'></td>
+      <td class='c6'></td>
+      <td class='c7'></td>
+      <td class='c8'></td>
+      <td class='c9'></td>
+    </tr>
+    <tr class='r8'>
+      <td class='c0'></td>
+      <td class='c1'></td>
+      <td class='c2'></td>
+      <td class='c3'></td>
+      <td class='c4'></td>
+      <td class='c5'></td>
+      <td class='c6'></td>
+      <td class='c7'></td>
+      <td class='c8'></td>
+      <td class='c9'></td>
+    </tr>
+    <tr class='r9'>
+      <td class='c0'></td>
+      <td class='c1'></td>
+      <td class='c2'></td>
+      <td class='c3'></td>
+      <td class='c4'></td>
+      <td class='c5'></td>
+      <td class='c6'></td>
+      <td class='c7'></td>
+      <td class='c8'></td>
+      <td class='c9'></td>
+    </tr>
+  </table>
+</body>
+
+</html>
