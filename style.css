@@ -13,5 +13,18 @@ table td {
 
 }
 
+.controls {
+	text-align: center;
+}
 
 
+.pause{
+  display: none;
+}
+
+.speed{
+  margin-top: 5px;
+  height: 11px;
+  width: 50px;
+  display: inline-block;
+}

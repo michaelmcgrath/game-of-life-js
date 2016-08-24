@@ -9,17 +9,22 @@
 <script src='view.js'></script>
 <script src='controller.js'></script>
 <script>
-function hi() {console.log('hi')}
- var interval = setInterval(hi, 1000)
-  setTimeout(function() {
-    clearInterval(interval)
-  }, 5009)
+  boardSize = 10
+  gol = new Game(boardSize)
+  interval = null
+  mouseHeld = false
+  speed = 5
+  $(function(){
+    setupDefaultBoard()
+    draw(gol)
+    setupEventListeners()
+  })
 </script>
 </head>
 
 <body>
   <table id='game'>
-  	<tr class='r0'>
+    <tr class='r0'>
       <td class='c0'></td>
       <td class='c1'></td>
       <td class='c2'></td>
@@ -140,6 +145,14 @@ function hi() {console.log('hi')}
       <td class='c9'></td>
     </tr>
   </table>
+
+  <div class="controls">
+    <button class='new-game'>New Game</button>
+    <button class='start'>Start</button>
+    <button class='pause'>Pause</button>
+    <button class='set-speed'>Set Speed</button>
+    <input type='number' class='speed'></input>
+  </div>
 </body>
 
 </html>
