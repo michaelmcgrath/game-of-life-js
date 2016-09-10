@@ -43,10 +43,10 @@ var Game = ( function() {
   }
 
   function emptyBoard(size) {
-    var board = new Array(size)
+    var board = [(size)]
 
     for(var i=0; i<size; i++){
-      board[i] = new Array(size);
+      board[i] = [(size)];
       for(var j=0; j<size; j++){
         board[i][j] = 0
       }

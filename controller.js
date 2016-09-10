@@ -1,10 +1,63 @@
 function setupDefaultBoard() {
-	gol.board[1][2] = 1
-	gol.board[2][3] = 1
-	gol.board[3][1] = 1
-	gol.board[3][2] = 1
-	gol.board[3][3] = 1
+	gol.board[4][6] = 1
+	gol.board[4][7] = 1
+	gol.board[4][8] = 1
+	gol.board[4][12] = 1
+	gol.board[4][13] = 1
+	gol.board[4][14] = 1
 
+	gol.board[9][6] = 1
+	gol.board[9][7] = 1
+	gol.board[9][8] = 1
+	gol.board[9][12] = 1
+	gol.board[9][13] = 1
+	gol.board[9][14] = 1
+
+	gol.board[11][6] = 1
+	gol.board[11][7] = 1
+	gol.board[11][8] = 1
+	gol.board[11][12] = 1
+	gol.board[11][13] = 1
+	gol.board[11][14] = 1
+
+	gol.board[16][6] = 1
+	gol.board[16][7] = 1
+	gol.board[16][8] = 1
+	gol.board[16][12] = 1
+	gol.board[16][13] = 1
+	gol.board[16][14] = 1
+
+	gol.board[6][4] = 1
+	gol.board[7][4] = 1
+	gol.board[8][4] = 1
+
+	gol.board[6][9] = 1
+	gol.board[7][9] = 1
+	gol.board[8][9] = 1
+
+	gol.board[6][11] = 1
+	gol.board[7][11] = 1
+	gol.board[8][11] = 1
+
+	gol.board[6][16] = 1
+	gol.board[7][16] = 1
+	gol.board[8][16] = 1
+
+	gol.board[12][4] = 1
+	gol.board[13][4] = 1
+	gol.board[14][4] = 1
+
+	gol.board[12][9] = 1
+	gol.board[13][9] = 1
+	gol.board[14][9] = 1
+
+	gol.board[12][11] = 1
+	gol.board[13][11] = 1
+	gol.board[14][11] = 1
+	
+	gol.board[12][16] = 1
+	gol.board[13][16] = 1
+	gol.board[14][16] = 1
 }
 
 function setupEventListeners() {
